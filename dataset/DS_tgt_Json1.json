@@ -1,0 +1,19 @@
+{
+	"name": "DS_tgt_Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_tgt_csv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "output"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
